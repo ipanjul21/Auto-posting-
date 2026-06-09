@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && esbuild api/boot.ts --platform=node --bundle --format=esm --outdir=dist --banner:js=\"import { createRequire } from 'module';const require = createRequire(import.meta.url);const fs = require('fs');\"",
+    "build": "vite build",
     "vercel-build": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -103,7 +103,6 @@
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4",
     "@hono/vite-dev-server": "^0.19.0",
-    "esbuild": "^0.27.2",
     "prettier": "^3.7.4",
     "vitest": "^4.0.16",
     "drizzle-kit": "^0.31.8",
