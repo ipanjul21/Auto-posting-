@@ -1,0 +1,16 @@
+# Secrets removed from this repository for security.
+# Do NOT commit real credentials. Keep them locally or in your hosting provider's secret manager.
+
+.env
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+dist/
+build/
+.env.local
+.env.*.local
+__pycache__/
+*.pyc
+venv/
+.envrc
